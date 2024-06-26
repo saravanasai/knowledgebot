@@ -14,7 +14,8 @@ return [
     */
 
     'name' => env('APP_NAME', 'Laravel'),
-
+    'open_ai_api_key' => env('OPENAI_API_KEY', null),
+    'open_ai_fake' => env('OPENAI_FAKE', true),
     /*
     |--------------------------------------------------------------------------
     | Application Environment
